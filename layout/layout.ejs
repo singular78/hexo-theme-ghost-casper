@@ -2,13 +2,16 @@
 <html prefix="og: http://ogp.me/ns#">
 <%- partial('casper/head') %>
 <% if (typeof page.title == 'undefined') { %>
-<body class="home-template">
+<body class="home-template nav-closed">
 <% } else { %>
-<body class="post-template">
+<body class="post-template nav-closed">
 <% } %>
-  <%- partial('casper/header') %>
-  <%- body %>
-  <%- partial('casper/footer') %>
+  <%- partial('casper/nav') %>
+  <div class="site-wrapper">
+    <%- partial('casper/header') %>
+    <%- body %>
+    <%- partial('casper/footer') %>
+  </div>
   <%- partial('casper/after_all') %>
 </body>
 </html>

@@ -23,3 +23,8 @@ excerpt_link: Read More
 
 # Miscellaneous
 rss: /atom.xml
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
