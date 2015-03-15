@@ -22,7 +22,7 @@ Change `theme` setting in `_config.yml` to `ghost-casper`.
 Add in theme `_config.yml`:
 
 ``` yml
-~~cover: //blog.ghost.org/content/images/2013/Nov/cover.png
+~~cover: //blog.ghost.org/content/images/2013/Nov/cover.png~~
 
 bio: 'A designer, developer and entrepreneur. Spends his time travelling the world with a bag of kites. Likes journalism and publishing platforms.'
 location: Earth
