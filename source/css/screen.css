@@ -1124,32 +1124,6 @@ body.nav-opened .nav {
     width: auto;
 }
 
-.back-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    float: left;
-    height: 38px;
-    padding: 0 15px 0 10px;
-    border: transparent 1px solid;
-    color: #9EABB3;
-    text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    line-height: 35px;
-    border-radius: 3px;
-    background: rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-}
-.back-button:before {
-    position: relative;
-    bottom: -2px;
-    font-size: 13px;
-    line-height: 0;
-    margin-right: 8px;
-}
-
 .menu-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1204,7 +1178,6 @@ body.nav-opened .menu-button .word {
     background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
 }
 .no-cover .main-nav.overlay,
-.no-cover .back-button,
 .no-cover .menu-button {
     background: none;
 }
@@ -1213,7 +1186,6 @@ body.nav-opened .menu-button .word {
     color: #fff;
 }
 
-.main-nav.overlay .back-button,
 .main-nav.overlay .subscribe-button {
     border-color: rgba(255,255,255,0.6);
 }
@@ -1226,7 +1198,6 @@ body.nav-opened .menu-button .word {
 }
 
 /* Add a border to the buttons on hover */
-.back-button:hover,
 .subscribe-button:hover {
     border-color: #bfc8cd;
     color: #9EABB3;
@@ -1266,7 +1237,6 @@ body.nav-opened .menu-button .word {
     color: rgba(0,0,0,0.5);
 }
 
-.no-cover .main-nav.overlay .back-button,
 .no-cover .main-nav.overlay .menu-button {
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
@@ -2297,8 +2267,6 @@ pre .chunk {
         padding: 60px 9% 5%;
     }   
     
-    
-    .back-button,
     .subscribe-button {
         height: 44px;
         line-height: 41px;
@@ -2306,15 +2274,11 @@ pre .chunk {
         color: #2e2e2e;
         background: transparent;
     }
-    .back-button:hover,
+
     .subscribe-button:hover {
         border-color: #ebeef0;
         color: #2e2e2e;
         background: #ebeef0;
-    }
-
-    .back-button {
-        padding: 0 15px 0 10px;
     }
 
     .subscribe-button {
@@ -2330,12 +2294,11 @@ pre .chunk {
     .no-cover .main-nav.overlay {
         background: none;
     }
-    .no-cover .main-nav.overlay .back-button,
+
     .no-cover .main-nav.overlay .menu-button {
         border: none;
     }
 
-    .main-nav.overlay .back-button,
     .main-nav.overlay .subscribe-button {
         border-color: transparent;
     }

@@ -1,5 +1,6 @@
 # config
-cover: //blog.ghost.org/content/images/2013/Nov/cover.png
+# cover: //blog.ghost.org/content/images/2013/Nov/cover.png
+cover : false
 bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.'
 location: Location
 website: Website
@@ -28,3 +29,4 @@ rss: /atom.xml
 menu:
   Home: /
   Archives: /archives
+  Tags: /tags
